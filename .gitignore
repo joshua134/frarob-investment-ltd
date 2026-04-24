@@ -15,6 +15,7 @@ dist-ssr/
 .env
 .env.local
 .env.*.local
+.env.production
 
 # Editor
 .vscode/
@@ -40,4 +41,5 @@ pids
 *.pid.lock
 
 # Optional
+.vercel
 .vercel
