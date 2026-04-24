@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# FRAROB Investment Limited | Life Line Solutions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![FRAROB Logo](/public/logo.jpeg)
 
-Currently, two official plugins are available:
+A modern, responsive PWA website for FRAROB Investment Limited - a premier provider of security, safety, solar, electrical, networking, and plumbing solutions in Kenya.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://frarob-investment-ltd.vercel.app)
+[![PWA Ready](https://img.shields.io/badge/PWA-Ready-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+[![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## React Compiler
+## 📱 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ **Progressive Web App (PWA)** - Installable on mobile and desktop devices
+- ✅ **Responsive Design** - Works perfectly on all screen sizes
+- ✅ **Dark Theme** - Modern dark theme with glass morphism effects
+- ✅ **Smooth Animations** - Powered by Framer Motion
+- ✅ **Contact Form** - With Google reCAPTCHA v2 protection
+- ✅ **Email Integration** - Form submissions sent directly to business email
+- ✅ **Portfolio Showcase** - Display completed projects with filtering
+- ✅ **SEO Friendly** - Meta tags and semantic HTML
+- ✅ **Fast Performance** - Optimized with Vite and code splitting
+- ✅ **Offline Support** - Service worker for offline access
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Frontend
+- **React 18** - UI Library
+- **TypeScript** - Type safety
+- **Tailwind CSS 3.4.1** - Styling
+- **Framer Motion** - Animations
+- **Lucide React** - Icons
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### PWA & Performance
+- **Vite PWA Plugin** - PWA configuration
+- **Workbox** - Service worker management
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Form Handling
+- **FormSubmit.co** - Email integration
+- **Google reCAPTCHA v2** - Bot protection
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Development Tools
+- **Vite** - Build tool
+- **ESLint** - Code linting
+- **PostCSS** - CSS processing
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Prerequisites
+- Node.js (v18 or higher)
+- npm (v9 or higher)
