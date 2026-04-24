@@ -54,7 +54,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const contactInfo: ContactInfo = {
   phone: '0777778383',
   mobile: '+254 704 374466',
-  email: 'MUHOLOFRANCIS2025@GMAIL.COM',
+  email: 'info@frarob.co.ke',
   address: 'Canon Towers, Moi Avenue, Mombasa',
   poBox: 'PO Box 90-80100, Mombasa'
 };

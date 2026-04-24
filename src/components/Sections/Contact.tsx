@@ -139,7 +139,7 @@ export const Contact = () => {
     setSubmitStatus({ type: null, message: '' });
     
     try {
-      const response = await fetch('https://formsubmit.co/ajax/MUHOLOFRANCIS2025@GMAIL.COM', {
+      const response = await fetch('https://formsubmit.co/ajax/info@frarob.co.ke', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
